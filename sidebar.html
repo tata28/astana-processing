@@ -1,13 +1,7 @@
 <nav id="sidebar">
     <div class="sidebar-header">
-        <div class="row">
-            <div class="col-12">
-                <h4 style="overflow-y: hidden;">ASTANA</h4>
-            </div>
-            <div class="col-12">
-                <p>for your daily activity</p>
-            </div>
-        </div>
+        <h4>ASTANA</h4>
+        <p>for your daily activity</p>
     </div>
     <div class="row" style="padding-left:8px;">
         <div class="col-4">
@@ -28,62 +22,7 @@
                     <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
                 </div>
                 <div class="col">
-                    <a href="dashboard.php">Penawaran</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="dashboard.php">Daftar Resep</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="dashboard.php">Daftar Resep</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="dashboard.php">Daftar Resep</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="dashboard.php">Daftar Resep</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/dashboard.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="dashboard.php">Daftar Resep</a>
+                    <a href="dashboard.php">Dashboard</a>
                 </div>
             </div>
         </li>
@@ -94,13 +33,41 @@
                     <img src="img/kelola akun.png" style="height:16px;width:16px;" class="invert">
                 </div>
                 <div class="col">
-                    <a href="#kelolaakun" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Kelola Akun</a>
-                    <ul class="collapse list-unstyled" id="kelolaakun">
+                    <a href="kelolaAkun.php">Kelola Akun</a>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-2 align-self-center">
+                    <img src="img/cust.png" style="height:16px;width:16px;" class="invert">
+                </div>
+                <div class="col">
+                    <a href="#customer" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Customer</a>
+                    <ul class="collapse list-unstyled" id="customer">
                         <li>
-                            <a href="kelolaAkun.php">Akun Super Admin</a>
+                            <a href="addCustomer.php">Add New Customer</a>
                         </li>
                         <li>
-                            <a href="kelolaAkunDistributor.php">Akun Distributor</a>
+                            <a href="databaseCustomer.php">Data Customer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-2 align-self-center">
+                    <img src="img/employee.png" style="height:16px;width:16px;" class="invert">
+                </div>
+                <div class="col">
+                    <a href="#employee" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Employee</a>
+                    <ul class="collapse list-unstyled" id="employee">
+                        <li>
+                            <a href="addEmployee.php">Add New Employee</a>
+                        </li>
+                        <li>
+                            <a href="databaseEmployee.php">Data Employee</a>
                         </li>
                     </ul>
                 </div>
@@ -128,18 +95,6 @@
                 </div>
             </div>
         </li>
-
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-2 align-self-center">
-                    <img src="img/reseller.png" style="height:16px;width:16px;" class="invert">
-                </div>
-                <div class="col">
-                    <a href="formReseller.php">Reseller</a>
-                </div>
-            </div>
-        </li>
-
 
         <li class="list-group-item">
             <div class="row">
@@ -292,6 +247,53 @@
                         </li>
                         <li>
                             <a href="#">Laporan Laba Rugi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-2 align-self-center">
+                    <img src="img/debt.png" style="height:16px;width:16px;" class="invert">
+                </div>
+                <div class="col">
+                    <a href="#Utang" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Utang</a>
+                    <ul class="collapse list-unstyled" id="Utang">
+                        <li>
+                            <a href="pembayaranPiutang.php">Pembayaran Piutang</a>
+                        </li>
+                        <li>
+                            <a href="pembayaranUtang.php">Pembayaran Utang</a>
+                        </li>
+                        <li>
+                            <a href="pengirimanTagihanPiutang.php">Pengiriman Tagihan Piutang</a>
+                        </li>
+                        <li>
+                            <a href="tandaTerimaTagihan.php">Tanda Terima Tagihan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-2 align-self-center">
+                    <img src="img/order.jpg" style="height:16px;width:16px;" class="invert">
+                </div>
+                <div class="col">
+                    <a href="#Order" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Order</a>
+                    <ul class="collapse list-unstyled" id="Order">
+                        <li>
+                            <a href="penerimaanBarang.php">Penerimaan Barang</a>
+                        </li>
+                        <li>
+                            <a href="orderRetur.php">Order Retur</a>
+                        </li>
+                        <li>
+                            <a href="penerimaanTagihan.php">Penerimaan Tagihan</a>
                         </li>
                     </ul>
                 </div>
